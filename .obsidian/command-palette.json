@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "app:delete-file",
+    "obsidian-footnotes:insert-footnote",
+    "obsidian-reading-time:reading-time-editor-command",
+    "file-recovery:open",
+    "obsidian-pandoc:pandoc-export-docx"
+  ]
+}

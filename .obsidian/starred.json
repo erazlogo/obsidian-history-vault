@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "type": "search",
+      "title": "tag:#subject/numbers_in_literature",
+      "query": "tag:#subject/numbers_in_literature"
+    },
+    {
+      "type": "search",
+      "title": "tag:#source/secondary",
+      "query": "tag:#source/secondary"
+    },
+    {
+      "type": "search",
+      "title": "tag:#source/primary",
+      "query": "tag:#source/primary"
+    },
+    {
+      "type": "search",
+      "title": "tag:#analysis",
+      "query": "tag:#analysis"
+    },
+    {
+      "type": "search",
+      "title": "tag:#person",
+      "query": "tag:#person"
+    },
+    {
+      "type": "search",
+      "title": "tag:#work",
+      "query": "tag:#work"
+    },
+    {
+      "type": "search",
+      "title": "tag:#institution",
+      "query": "tag:#institution"
+    },
+    {
+      "type": "search",
+      "title": "tag:#event",
+      "query": "tag:#event"
+    },
+    {
+      "type": "file",
+      "title": "Things left to do on the project",
+      "path": "1. Notes/to do.md"
+    }
+  ]
+}

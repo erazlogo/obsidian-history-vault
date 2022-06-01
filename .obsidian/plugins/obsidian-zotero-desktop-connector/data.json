@@ -1,0 +1,33 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "01 notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Pandoc",
+      "format": "pandoc"
+    },
+    {
+      "name": "Chicago Item",
+      "format": "formatted-bibliography"
+    },
+    {
+      "name": "Chicago Footnote",
+      "format": "formatted-citation",
+      "cslStyle": "chicago-fullnote-bibliography"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Create Research Note",
+      "outputPathTemplate": "01 notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "meta/attachments/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "meta/zotero/research note.md",
+      "cslStyle": "chicago-fullnote-bibliography"
+    }
+  ],
+  "exeVersion": "1.0.1"
+}

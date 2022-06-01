@@ -1,0 +1,63 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": true,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "01 notes",
+      "tag": "^#source$",
+      "pattern": ""
+    },
+    {
+      "folder": "02 analysis",
+      "tag": "^#analysis$",
+      "pattern": ""
+    },
+    {
+      "folder": "03 index",
+      "tag": "^#place$",
+      "pattern": ""
+    },
+    {
+      "folder": "03 index",
+      "tag": "^#event$",
+      "pattern": ""
+    },
+    {
+      "folder": "03 index",
+      "tag": "^#person$",
+      "pattern": ""
+    },
+    {
+      "folder": "03 index",
+      "tag": "^#institution$",
+      "pattern": ""
+    },
+    {
+      "folder": "03 index",
+      "tag": "^#work$",
+      "pattern": ""
+    },
+    {
+      "folder": "04 tasks",
+      "tag": "^#task$",
+      "pattern": ""
+    },
+    {
+      "folder": "05 archives",
+      "tag": "^#archive$",
+      "pattern": ""
+    },
+    {
+      "folder": "06 diary",
+      "tag": "^#diary$",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "meta"
+    }
+  ]
+}

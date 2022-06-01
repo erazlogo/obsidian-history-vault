@@ -1,0 +1,24 @@
+{
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical",
+  "legacyEditor": false,
+  "livePreview": true,
+  "newFileLocation": "current",
+  "lineWrap": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": true,
+  "promptDelete": true,
+  "spellcheck": true,
+  "attachmentFolderPath": "meta/attachments",
+  "userIgnoreFilters": [
+    "meta/"
+  ],
+  "showUnsupportedFiles": true
+}

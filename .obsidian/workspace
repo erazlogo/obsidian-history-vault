@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "219cbc15ce10cc77",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cf619fb635e2102",
+        "type": "split",
+        "children": [
+          {
+            "id": "620db43e38472110",
+            "type": "leaf",
+            "dimension": 53.61111111111111,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "5c5200aaee1379d4"
+          },
+          {
+            "id": "0ca393597ff61d90",
+            "type": "split",
+            "dimension": 46.38888888888889,
+            "children": [
+              {
+                "id": "c35259f8180c09de",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [
+                        {
+                          "query": "tag:#source/primary",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14048348
+                          }
+                        },
+                        {
+                          "query": "tag:#source/secondary",
+                          "color": {
+                            "a": 1,
+                            "rgb": 15378022
+                          }
+                        },
+                        {
+                          "query": "tag:#analysis",
+                          "color": {
+                            "a": 1,
+                            "rgb": 12709480
+                          }
+                        },
+                        {
+                          "query": "tag:#whatever",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6084188
+                          }
+                        },
+                        {
+                          "query": "tag:#work",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6084269
+                          }
+                        },
+                        {
+                          "query": "tag:#person",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6073814
+                          }
+                        },
+                        {
+                          "query": "tag:#institution",
+                          "color": {
+                            "a": 1,
+                            "rgb": 6053078
+                          }
+                        },
+                        {
+                          "query": "tag:#place",
+                          "color": {
+                            "a": 1,
+                            "rgb": 11361494
+                          }
+                        },
+                        {
+                          "query": "tag:#event",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14048429
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.5792455264468321,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "5c5200aaee1379d4"
+              },
+              {
+                "id": "0cf3d155763cd006",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "meta/dataview/twenty latest notes.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b306e751a3361498",
+    "type": "split",
+    "children": [
+      {
+        "id": "98ef0b9bfc8bd347",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57fd607d940f4ba5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0da2abc47a95e75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "497ada70ae782199",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "2fbbdeeb5d0edf3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb7c25ff1c9b61d3",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d514e81241a11331",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1d4eb5a35f354c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df7c4ad161ff4851",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "11245eff124b9332",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8d29f2ab06c3dab4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "620db43e38472110",
+  "lastOpenFiles": [
+    "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+    "01 notes/2. lucia shown in the US two years after the ban.md",
+    "01 notes/2. we don't know bloom's date of birth (secondary note).md",
+    "03 index/Dublin (place note).md",
+    "03 index/5. Bloom, Leopold (person note).md",
+    "03 index/4. Leopold Bloom's walk in Dublin (event note).md",
+    "02 analysis/3. novel details - bloom's year of birth (analysis note).md",
+    "meta/dataview/twenty latest notes.md",
+    "04 tasks/enter references from screening cuba.md"
+  ]
+}
