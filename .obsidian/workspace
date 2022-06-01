@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "file": "04 tasks/enter references from screening cuba.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                    "file": "04 tasks/enter references from screening cuba.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "file": "04 tasks/enter references from screening cuba.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+                "file": "04 tasks/enter references from screening cuba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/1. joyce discusses bloom's year of birth (primary note).md"
+                "file": "04 tasks/enter references from screening cuba.md"
               }
             }
           }
@@ -268,15 +268,15 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
-    "01 notes/1. joyce discusses bloom's year of birth (primary note).md",
+    "04 tasks/enter references from screening cuba.md",
+    "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
     "01 notes/1. cuban film festival cancelled in nyc 1972.md",
     "01 notes/2. lucia shown in the US two years after the ban.md",
-    "01 notes/2. we don't know bloom's date of birth (secondary note).md",
-    "03 index/Dublin (place note).md",
-    "03 index/5. Bloom, Leopold (person note).md",
-    "03 index/4. Leopold Bloom's walk in Dublin (event note).md",
     "02 analysis/3. novel details - bloom's year of birth (analysis note).md",
     "meta/dataview/twenty latest notes.md",
-    "04 tasks/enter references from screening cuba.md"
+    "03 index/New York, NY (place note).md",
+    "03 index/Gómez, Manuel Octavio (person note).md",
+    "03 index/Days of Water (Los días del agua, 1971) - work note.md",
+    "meta/dataview/notes as a timeline.md"
   ]
 }

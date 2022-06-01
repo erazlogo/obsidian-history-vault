@@ -5,52 +5,52 @@
   "folder_tag_pattern": [
     {
       "folder": "01 notes",
-      "tag": "^#source$",
+      "tag": "^#source",
       "pattern": ""
     },
     {
       "folder": "02 analysis",
-      "tag": "^#analysis$",
+      "tag": "^#analysis",
       "pattern": ""
     },
     {
       "folder": "03 index",
-      "tag": "^#place$",
+      "tag": "^#place",
       "pattern": ""
     },
     {
       "folder": "03 index",
-      "tag": "^#event$",
+      "tag": "^#event",
       "pattern": ""
     },
     {
       "folder": "03 index",
-      "tag": "^#person$",
+      "tag": "^#person",
       "pattern": ""
     },
     {
       "folder": "03 index",
-      "tag": "^#institution$",
+      "tag": "^#institution",
       "pattern": ""
     },
     {
       "folder": "03 index",
-      "tag": "^#work$",
+      "tag": "^#work",
       "pattern": ""
     },
     {
       "folder": "04 tasks",
-      "tag": "^#task$",
+      "tag": "^#task",
       "pattern": ""
     },
     {
       "folder": "05 archives",
-      "tag": "^#archive$",
+      "tag": "^#archive",
       "pattern": ""
     },
     {
       "folder": "06 diary",
-      "tag": "^#diary$",
+      "tag": "^#diary",
       "pattern": ""
     }
   ],
