@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 tasks/enter references from screening cuba.md",
+                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,7 +22,7 @@
             "group": "5c5200aaee1379d4"
           },
           {
-            "id": "0ca393597ff61d90",
+            "id": "53ea79c8d2e2612c",
             "type": "split",
             "dimension": 46.38888888888889,
             "children": [
@@ -32,7 +32,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "04 tasks/enter references from screening cuba.md",
+                    "file": "01 notes/2. lucia shown in the US two years after the ban.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -127,16 +127,22 @@
                 "group": "5c5200aaee1379d4"
               },
               {
-                "id": "0cf3d155763cd006",
+                "id": "4b7f3b7b28a39729",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "backlink",
                   "state": {
-                    "file": "meta/dataview/twenty latest notes.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
                   }
-                }
+                },
+                "group": "5c5200aaee1379d4"
               }
             ],
             "direction": "horizontal"
@@ -225,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 tasks/enter references from screening cuba.md",
+                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 tasks/enter references from screening cuba.md",
+                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -254,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 tasks/enter references from screening cuba.md"
+                "file": "01 notes/2. lucia shown in the US two years after the ban.md"
               }
             }
           }
@@ -268,15 +274,15 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
+    "01 notes/2. lucia shown in the US two years after the ban.md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+    "meta/dataview/notes as a timeline.md",
+    "meta/dataview/twenty latest notes.md",
+    "meta/dataview/all tasks.md",
     "04 tasks/enter references from screening cuba.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-    "01 notes/2. lucia shown in the US two years after the ban.md",
     "02 analysis/3. novel details - bloom's year of birth (analysis note).md",
-    "meta/dataview/twenty latest notes.md",
     "03 index/New York, NY (place note).md",
-    "03 index/Gómez, Manuel Octavio (person note).md",
-    "03 index/Days of Water (Los días del agua, 1971) - work note.md",
-    "meta/dataview/notes as a timeline.md"
+    "03 index/Gómez, Manuel Octavio (person note).md"
   ]
 }
