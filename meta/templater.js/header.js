@@ -1,9 +1,9 @@
 function header(tp) {
-    string=tp.file.content;
-    string2=tp.file.selection();
-    headertext=string.substring(0, string.indexOf("# Annotations"));
-    pageno=string2.substring(string2.indexOf("?page=")+6, string2.indexOf("&annotation"));
-    headertext2=headertext.replace("page-no::", "page-no:: "+pageno)
-     return headertext2
+    content=tp.file.content;
+    selection=tp.file.selection();
+    getheader=content.substring(0, string.indexOf("### Note")+10);
+    pageno=selection.substring(selection.indexOf("?page=")+6, selection.indexOf("&annotation"));
+    headerwithpageno=getheader.replace("page-no::", "page-no:: "+pageno);
+     return headerwithpageno;
 }
 module.exports = header
