@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                "file": "meta/templater/extract research note from selection.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                    "file": "meta/templater/extract research note from selection.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -132,7 +132,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                    "file": "meta/templater/extract research note from selection.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                "file": "meta/templater/extract research note from selection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after the ban.md",
+                "file": "meta/templater/extract research note from selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after the ban.md"
+                "file": "meta/templater/extract research note from selection.md"
               }
             }
           }
@@ -274,6 +274,7 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
+    "meta/templater/extract research note from selection.md",
     "01 notes/2. lucia shown in the US two years after the ban.md",
     "01 notes/1. cuban film festival cancelled in nyc 1972.md",
     "meta/dataview/notes as a timeline.md",
@@ -282,7 +283,6 @@
     "04 tasks/enter references from screening cuba.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
     "02 analysis/3. novel details - bloom's year of birth (analysis note).md",
-    "03 index/New York, NY (place note).md",
-    "03 index/Gómez, Manuel Octavio (person note).md"
+    "03 index/New York, NY (place note).md"
   ]
 }
