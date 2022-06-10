@@ -6,10 +6,14 @@ This vault will be updated frequently during the summer of 2022. To migrate to t
 
 ## Some features available in this vault:
 
-Extract an annotation as a "research note" from your imported annotations file (i.e. from your literature note, in Obsidian-speak) with all source information included, with a link placed in your original annotations file. Includes a prompt for setting note title:
+Import your annotations from Zotero via Zotero Integration, including Zotero item metadata and predefined template for working with notes:
+
+![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/imported%20note.png)
+
+Extract an annotation as an atomic "research note" from your imported annotations file (i.e. from your "literature note," in Obsidian-speak), with all source information and the template for the note included, and with a link to the new note placed in your original annotations file. Includes a prompt for setting new note title:
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/extract%20research%20note.gif)
 
-Search and sort your research notes (atomic literature notes) by field dynamically. Will work for regular literature notes as well:
+Search and sort your research notes (atomic literature notes) by field dynamically. This works for regular literature notes as well:
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/search%20research%20notes.gif)
