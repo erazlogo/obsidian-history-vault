@@ -6,8 +6,8 @@ drafts:
     folder: Draft 1
     scenes:
       - The first paragraph of your introduction
-      - your paragraph on bloom's year of birth
-      - your paragraph on topic x drafted from analysis note on x
+      - your paragraph on censorship of cuban cinema
+      - the first paragraph of part 2
 ---
 
 

@@ -31,5 +31,13 @@
       ],
       "key": "Z"
     }
+  ],
+  "obsidian-zotero-desktop-connector:zdc-exp-Create research note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

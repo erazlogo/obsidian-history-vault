@@ -11,5 +11,7 @@
   "dataview",
   "obsidian-zotero-desktop-connector",
   "auto-note-mover",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-minimal-settings",
+  "obsidian-contextual-typography"
 ]

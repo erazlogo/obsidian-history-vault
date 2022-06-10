@@ -11,16 +11,18 @@ citekey: {{citekey}}
 ---
 {{bibliography}}
 [online]({{uri}}) [local]({{desktopURI}}) {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %} [pdf](file://{{attachment.path | replace(" ", "%20")}})
-{% if loop.last %} 
-{% endif %}{%- endfor -%}
+{%- endfor -%}
+ 
+{% if tags.length > 0 -%}{% for t in tags -%}{% if t.tag == "secondary" %}
 
-{% if tags.length > 0 -%}{% for t in tags -%}
-#{{t.tag | lower | replace(" ", "-")}}{% if not loop.last %}
-{% endif %}{% endfor %}{%- endif %}
+#source/secondary{% elif t.tag == "primary" %}
+
+#source/primary{% elif "-project" in t.tag %}
+#project/{{t.tag | replace("-project", "")}}{% endif %}{%- endfor %}{%- endif %}
 
 ### Index
 
-start-date::
+start-date:: {% if date %}{{date | format("YYYY-MM-DD")}}{% endif %}
 end-date::
 page-no::
 

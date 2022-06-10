@@ -10,20 +10,14 @@ kanban-plugin: basic
 - [ ] [[The first paragraph of your introduction]]
 
 
-## Part 1 - numbers in ulysses
+## Part 1 - censorship of the cuban film festival
 
-- [ ] [[3. novel details - bloom's year of birth (analysis note)|3. novel details - bloom's year of birth (analysis note)]]
-- [ ] [[your paragraph on bloom's year of birth]]
+- [ ] [[your paragraph on censorship of cuban cinema]]
 
 
 ## Part 2
 
-- [ ] [[analysis note on topic x - to be removed from this outline once your paragraph is done]]
-- [ ] [[your paragraph on topic x drafted from analysis note on x]]
-
-
-## Part 3
-
+- [ ] [[the first paragraph of part 2]]
 
 
 ## Conclusion

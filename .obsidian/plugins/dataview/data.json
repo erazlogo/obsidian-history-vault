@@ -7,15 +7,15 @@
   "warnOnEmptyResult": false,
   "refreshEnabled": true,
   "refreshInterval": 250,
-  "defaultDateFormat": "MMM dd, yyyy",
+  "defaultDateFormat": "yyyy-MM-dd",
   "defaultDateTimeFormat": "h:mm a - MMMM dd, yyyy",
   "maxRecursiveRenderDepth": 6,
   "tableIdColumnName": "File",
   "tableGroupColumnName": "Group",
   "inlineQueryPrefix": "=",
   "inlineJsQueryPrefix": "$=",
-  "enableDataviewJs": false,
-  "enableInlineDataviewJs": false,
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
   "prettyRenderInlineFields": true,
   "schemaVersion": 1
 }

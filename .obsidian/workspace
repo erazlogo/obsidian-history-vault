@@ -10,11 +10,11 @@
           {
             "id": "620db43e38472110",
             "type": "leaf",
-            "dimension": 53.61111111111111,
+            "dimension": 50.799289520426285,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
+                "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,17 +22,18 @@
             "group": "5c5200aaee1379d4"
           },
           {
-            "id": "53ea79c8d2e2612c",
+            "id": "5c5aacc90727a9ca",
             "type": "split",
-            "dimension": 46.38888888888889,
+            "dimension": 49.200710479573715,
             "children": [
               {
                 "id": "c35259f8180c09de",
                 "type": "leaf",
+                "dimension": 55.66037735849057,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
+                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -43,7 +44,7 @@
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
-                      "collapse-color-groups": false,
+                      "collapse-color-groups": true,
                       "colorGroups": [
                         {
                           "query": "tag:#source/primary",
@@ -119,7 +120,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.5792455264468321,
+                      "scale": 1.4270094218892415,
                       "close": true
                     }
                   }
@@ -127,12 +128,13 @@
                 "group": "5c5200aaee1379d4"
               },
               {
-                "id": "4b7f3b7b28a39729",
+                "id": "9b9fd40bcf14d5b3",
                 "type": "leaf",
+                "dimension": 44.33962264150943,
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
+                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -215,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273
   },
   "right": {
     "id": "d514e81241a11331",
@@ -231,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
+                "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
+                "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md"
+                "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md"
               }
             }
           }
@@ -274,15 +276,15 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
-    "06 diary/2022-04-02 SCMS 2022  global latin american cinema panel.md",
-    "05 archives/Sound Recordings, MOMA, NYC (archive note).md",
-    "04 tasks/enter references from screening cuba.md",
-    "meta/templater/extract research note from selection.md",
-    "01 notes/2. lucia shown in the US two years after the ban.md",
+    "01 notes/2. lucia shown in the US two years after cuban film festival.md",
+    "readme.md",
+    "01 notes/test title.md",
+    "01 notes/amayaScreeningCubaFilm2010.md",
     "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-    "meta/dataview/notes as a timeline.md",
-    "meta/dataview/twenty latest notes.md",
-    "meta/dataview/all tasks.md",
-    "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md"
+    "meta/zotero/research note.md",
+    "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+    "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+    "meta/dataview/Search Research Notes.md",
+    "07 writing/Your first article/Sample Corkboard.md"
   ]
 }
