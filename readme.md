@@ -8,8 +8,8 @@ This vault will be updated frequently during the summer of 2022. To migrate to t
 
 Extract an annotation as a "research note" from your imported annotations file (i.e. from your literature note, in Obsidian-speak) with all source information included, with a link placed in your original annotations file. Includes a prompt for setting a note title:
 
-![[extract research note.gif]]
+![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/extract%20research%20note.gif)
 
 Search and sort your research notes (atomic literature notes) by field dynamically. Will work for regular literature notes as well:
 
-![[search research notes.gif]]
+![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/search%20research%20notes.gif)
