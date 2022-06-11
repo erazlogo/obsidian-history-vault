@@ -9,6 +9,7 @@ recipient::
 title:: 
 publication:: 
 archive:: 
+archive-location:: 
 comment:: 
 SortBy:: start-date
 SortOrder:: asc
@@ -16,7 +17,7 @@ SortOrder:: asc
 ```dataviewjs
 const current = dv.current();
 
-if (current.author || current.title || current.recipient || current.publication || current.archive || current.comment || current["start-date"] || current["end-date"]) {
+if (current.author || current.title || current.recipient || current.publication || current.date || current.archive || current["archive-location"] || current.comment || current["start-date"] || current["end-date"]) {
     function passes(page) {
         return (!current.author || (page.author && page.author.includes(current.author)))
             && (!current.recipient || (page.recipient && page.recipient.includes(current.recipient)))
@@ -24,6 +25,7 @@ if (current.author || current.title || current.recipient || current.publication 
             && (!current.publication || (page.publication && page.publication.includes(current.publication)))
             && (!current.date || (page.date && page.date==current.date))
             && (!current.archive || (page.archive && page.archive.includes(current.archive)))
+            && (!current["archive-location"] || (page["archive-location"] && page["archive-location"].includes(current["archive-location"])))
             && (!current.comment || (page.comment && page.comment.includes(current.comment)))
             && (!current["start-date"] || (page["start-date"] && page["start-date"]==current["start-date"]))
             && (!current["end-date"] || (page["end-date"] && page["end-date"]==(current["end-date"])))
