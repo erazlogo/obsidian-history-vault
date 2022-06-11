@@ -1,12 +1,12 @@
-This is a starter vault for historical research with Zotero and Obsidian. To download, click on the "Code" button on the github page.
+This is a starter vault for historical research with Zotero and Obsidian. To download, click on the "Code" button on the Github page.
 
 For directions on how to use this vault, go to [Doing History with Zotero and Obsidian](https://publish.obsidian.md/history-notes/).
 
-This vault will be updated frequently during the summer of 2022. To migrate to the new version, just move your notes into matching folders in the new vault. 
+This vault will be updated frequently during the summer of 2022. To migrate to a newer version, just move your notes into matching folders in the new vault. 
 
 ## Some features available in this vault:
 
-Import your annotations from Zotero with [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). The imported "literature note" (in Obsidian-speak) includes Zotero item metadata and a predefined template for working with notes:
+Import your annotations from Zotero with [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). The imported "literature note" includes Zotero item metadata and a predefined template for working with notes:
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/imported%20note.png)
 
