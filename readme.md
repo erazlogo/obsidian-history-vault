@@ -4,7 +4,15 @@ For directions on how to use this vault, go to [Doing History with Zotero and Ob
 
 This vault will be updated frequently during the summer of 2022. To migrate to a newer version, just move your notes into matching folders in the new vault. 
 
-## Some features available in this vault
+## Advanced Features and Best Practices for Historians
+- Combine free-form "Zettelkasten" linking of ideas with structured data necessary to know who did what and when,
+- Import your PDF annotations from Zotero into Obsidian, including archive, archive-location, and recipient fields. This makes possible archival research (including private correspondence), central for historical work.
+- Split the resulting "literature note" into atomic "research notes" that will be later sorted into groups for writing. Different annotations from the same source might belong in different places in your draft.
+- Find and sort research notes by source metadata, and by date of event described in the note, in a familiar interface structured like a library catalog search.
+- Trace social networks: create and link person, place, and event notes and visualize with the Graph view
+- Use the Kanban plugin as a Corkboard for brainstorming your storyline, and Longform for writing, in a Scrivener-like setup 
+
+## Showcase of features available in this vault
 
 ### Import your annotations from Zotero 
 
