@@ -19,7 +19,6 @@ const cstartdate = new Date(dv.current()["start-date"]).getTime();
 const cenddate = new Date(dv.current()["end-date"]).getTime();
 const searchterm = dv.current().tag === null ? '"01 notes"' : '"01 notes" and '+dv.current().tag; 
 
-
 if (current.author || current.title || current.recipient || current.publication || current.date || current.archive || current["archive-location"] || current.comment || current["start-date"] || current["end-date"] || current.tag) {
 
     function passes(page) {
@@ -65,3 +64,5 @@ For text fields, this is a case-sensitive phrase search.
 Enter dates as YYYY-MM-DD. 
 Enter tag as `#tag`.  
 Enter exact field title and asc/desc to change sort order.
+
+%%Enter `Cuba` in the comment field to find two sample research notes.%%
