@@ -28,6 +28,6 @@ Extract an annotation from your imported annotations file (literature note) with
 
 ### Search and sort your notes by source fields 
 
-Sort your research notes and literature notes by fields dynamically, with [Dataview](https://github.com/blacksmithgu/obsidian-dataview).
+Sort your research notes and literature notes by fields dynamically, with [Dataview](https://github.com/blacksmithgu/obsidian-dataview). For text fields, this is a case-sensitive phrase search. Enter dates as YYYY-MM-DD. Enter tag as `#tag`. Enter exact field title and asc/desc to change sort order. The default sort in my case is by start-date, ascending, but you can search by any field included in the table. 
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/search%20research%20notes.gif)
