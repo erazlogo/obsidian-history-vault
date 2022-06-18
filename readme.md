@@ -6,9 +6,9 @@ This vault will be updated frequently during the summer of 2022. To migrate to a
 
 ## Advanced Features and Best Practices for Historians
 - Combine free-form "Zettelkasten" linking of ideas with structured data necessary to know who did what and when.
-- [Import your PDF annotations](https://github.com/erazlogo/obsidian-history-vault#import-your-annotations-from-zotero) from Zotero into Obsidian, including archive, archive-location, and recipient fields. This makes possible archival research (including private correspondence), central for historical work.
+- [Import your PDF annotations](https://github.com/erazlogo/obsidian-history-vault#import-your-annotations-from-zotero) from Zotero into Obsidian, including __archive, archive-location, and recipient__ fields. This feature incorporates archival research, including private correspondence.
 - [Split the resulting "literature note" into atomic "research notes"](https://github.com/erazlogo/obsidian-history-vault#extract-an-annotation-as-an-atomic-research-note) that will be later sorted into groups for writing. Different annotations from the same source might belong in different places in your draft.
-- [Search and sort research notes by source metadata](https://github.com/erazlogo/obsidian-history-vault#search-and-sort-your-notes-by-source-fields), and by date of event described in the note, in a familiar interface structured like a library catalog search.
+- [Search and sort research notes by source metadata](https://github.com/erazlogo/obsidian-history-vault#search-and-sort-your-notes-by-source-fields), by date of event described in the note, by your comments, by tags, and by keyword (everything in the note and note title) in a familiar interface structured like a library catalog search.
 - Trace social networks: create and link person, place, and event notes and visualize with the Graph view
 - Use the Kanban plugin as a Corkboard for brainstorming your storyline, and Longform for writing, in a Scrivener-like setup 
 
