@@ -23,7 +23,7 @@ await dv.view("meta/dataview", { keyword: dv.current().keyword, author: dv.curre
 
 Keyword search finds a word or phrase in the entire note text + note title.
 For text fields, this is a case-insensitive phrase search. 
-Enter dates as YYYY-MM-DD. 
+Enter dates as `YYYY-MM-DD`, `<YYYY-MM-DD` and `>YYYY-MM-DD`.
 Enter tag as `#tag`.  
 Enter exact field title and asc/desc to change sort order.
 

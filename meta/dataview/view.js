@@ -1,7 +1,10 @@
 const current = dv.current();
 const cdate = new Date(dv.current().date).getTime();
+const cdateop = !dv.current().date ? "" : (dv.current().date.toString().includes("<") ? "<" : (dv.current().date.toString().includes(">") ? ">" : "==="));
 const cstartdate = new Date(dv.current()["start-date"]).getTime();
+const cstartdateop = !dv.current()["start-date"] ? "" : (dv.current()["start-date"].toString().includes("<") ? "<" : (dv.current()["start-date"].toString().includes(">") ? ">" : "==="));
 const cenddate = new Date(dv.current()["end-date"]).getTime();
+const cenddateop = !dv.current()["end-date"] ? "" : (dv.current()["end-date"].toString().includes("<") ? "<" : (dv.current()["end-date"].toString().includes(">") ? ">" : "==="));
 const searchterm = dv.current().tag === null ? '"01 notes"' : '"01 notes" and '+dv.current().tag;
 
 if (current.keyword || current.author || current.recipient || current.title || current.publication || current.date || current.archive || current["archive-location"] || current["note-title"] || current["start-date"] || current["end-date"] || current.comment || current.tag) {
@@ -11,13 +14,13 @@ if (current.keyword || current.author || current.recipient || current.title || c
             && (!current.recipient || (page.recipient && page.recipient.toString().toLowerCase().includes(current.recipient.toLowerCase())))
             && (!current.title || (page.title && page.title.toString().toLowerCase().includes(current.title.toLowerCase())))
             && (!current.publication || (page.publication && page.publication.toString().toLowerCase().includes(current.publication.toLowerCase())))
-	        && (!current.date || (page.date && new Date(page.date).getTime()===cdate))
+            && (!current.date || (page.date && eval(new Date(page.date).getTime() + cdateop + cdate)))
             && (!current.archive || (page.archive && page.archive.toLowerCase().includes(current.archive.toLowerCase())))
             && (!current["archive-location"] || (page["archive-location"] && page["archive-location"].toLowerCase().includes(current["archive-location"].toLowerCase())))
             && (!current["note-title"] || (page.file.name && page.file.name.toLowerCase().includes(current["note-title"].toLowerCase())))
-           && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
-            && (!current["start-date"] || (page["start-date"] && new Date(page["start-date"]).getTime()===cstartdate))
-            && (!current["end-date"] || (page["end-date"] && new Date(page["end-date"]).getTime()===cenddate))
+            && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
+            && (!current["start-date"] || (page["start-date"] && eval(new Date(page["start-date"]).getTime() + cstartdateop + cstartdate)))
+            && (!current["end-date"] || (page["end-date"] && eval(new Date(page["end-date"]).getTime() + cenddateop + cenddate)))
             ;
     }
 
