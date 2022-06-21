@@ -32,8 +32,9 @@ Sort your research notes and literature notes by fields dynamically.
 Keyword search finds a word or phrase in the entire note text + note title.
 For text fields, this is a case-insensitive phrase search. 
 Enter dates as `YYYY-MM-DD`, `<YYYY-MM-DD` and `>YYYY-MM-DD`.
-Enter tag as `#tag`.  
-Enter exact field title and asc/desc to change sort order.
+Enter tags as `#tag1 #tag2`.
+Enter exact field title and `asc/desc` to sort by field. 
+Leave sort fields blank to sort by `note-title, desc`.
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/search%20research%20notes.gif)
 

@@ -1,15 +1,14 @@
 {
   "version": 2,
   "projects": {
-    "07 writing/Your first article": {
-      "path": "07 writing/Your first article",
+    "03 writing/Your first article": {
+      "path": "03 writing/Your first article",
       "indexFile": "Index",
       "draftsPath": "Drafts/"
     }
   },
-  "selectedProject": "07 writing/Your first article",
+  "selectedProject": "03 writing/Your first article",
   "selectedDraft": "Draft 1",
-  "userScriptFolder": null,
   "workflows": {
     "Default Workflow": {
       "name": "Default Workflow",
@@ -48,5 +47,6 @@
         }
       ]
     }
-  }
+  },
+  "userScriptFolder": null
 }

@@ -426,13 +426,13 @@
         "type": "split",
         "children": [
           {
-            "id": "51b398dccf71eddf",
+            "id": "cc42f564e792fbc6",
             "type": "split",
             "children": [
               {
-                "id": "6bcc87f845d9fdf0",
+                "id": "b86ddc73aad4b7bf",
                 "type": "split",
-                "dimension": 59.90566037735849,
+                "dimension": 68.04245283018868,
                 "children": [
                   {
                     "id": "9bfe5cefc7f1ecde",
@@ -452,7 +452,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+                        "file": "03 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
                         "mode": "source",
                         "source": false
                       }
@@ -462,14 +462,14 @@
                 "direction": "vertical"
               },
               {
-                "id": "bcdf1d6bb915e858",
+                "id": "a88dc700788989d3",
                 "type": "leaf",
-                "dimension": 40.09433962264151,
+                "dimension": 31.957547169811324,
                 "pinned": true,
                 "state": {
                   "type": "kanban",
                   "state": {
-                    "file": "07 writing/Your first article/Sample Corkboard.md"
+                    "file": "03 writing/Your first article/Sample Corkboard.md"
                   },
                   "pinned": true
                 }
@@ -598,8 +598,8 @@
         "direction": "horizontal",
         "width": 316.5
       },
-      "active": "9bfe5cefc7f1ecde"
+      "active": "57fd607d940f4ba5"
     }
   },
-  "active": "Write-with-Longform"
+  "active": "Search-research-notes"
 }

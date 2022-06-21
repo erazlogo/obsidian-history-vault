@@ -4,56 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "51b398dccf71eddf",
-        "type": "split",
-        "children": [
-          {
-            "id": "6bcc87f845d9fdf0",
-            "type": "split",
-            "dimension": 59.90566037735849,
-            "children": [
-              {
-                "id": "9bfe5cefc7f1ecde",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "46834b70e115efeb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "bcdf1d6bb915e858",
-            "type": "leaf",
-            "dimension": 40.09433962264151,
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "07 writing/Your first article/Sample Corkboard.md"
-              },
-              "pinned": true
-            }
+        "id": "620db43e38472110",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "readme.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -80,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analysis path:\"1. Notes\"",
+                "query": "rassegna",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,12 +67,20 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "3675a0669167cade",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 192
+    "width": 300
   },
   "right": {
     "id": "d514e81241a11331",
@@ -128,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+                "file": "readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,36 +125,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md"
+                "file": "readme.md"
               }
-            }
-          },
-          {
-            "id": "de6d71a3f2f32a49",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 300,
+    "collapsed": true
   },
-  "active": "9bfe5cefc7f1ecde",
+  "active": "620db43e38472110",
   "lastOpenFiles": [
+    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+    "meta/dataview/Search Research Notes.md",
+    "readme.md",
     "01 notes/2. lucia shown in the US two years after cuban film festival.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-    "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
-    "meta/dataview/Search Research Notes.md",
-    "meta/templater/extract research note from selection.md",
-    "meta/templater/extract bibliography task from selection.md",
-    "readme.md",
-    "meta/dataview/twenty latest notes.md",
-    "meta/zotero/research note.md"
+    "03 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+    "03 writing/Your first article/Sample Corkboard.md",
+    "03 writing/Your first article/Drafts/Draft 1/the first paragraph of part 2.md",
+    "03 writing/Your first article/Drafts/Draft 1/your paragraph on censorship of cuban cinema.md",
+    "meta/templater/extract research note from selection.md"
   ]
 }

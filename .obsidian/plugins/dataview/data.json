@@ -1,7 +1,5 @@
 {
   "renderNullAs": "\\-",
-  "taskLinkLocation": "end",
-  "taskLinkText": "🔗",
   "taskCompletionTracking": false,
   "taskCompletionText": "completion",
   "warnOnEmptyResult": false,
@@ -12,10 +10,13 @@
   "maxRecursiveRenderDepth": 6,
   "tableIdColumnName": "File",
   "tableGroupColumnName": "Group",
+  "allowHtml": true,
   "inlineQueryPrefix": "=",
   "inlineJsQueryPrefix": "$=",
   "enableDataviewJs": true,
   "enableInlineDataviewJs": true,
   "prettyRenderInlineFields": true,
+  "taskLinkLocation": "end",
+  "taskLinkText": "🔗",
   "schemaVersion": 1
 }

@@ -5,9 +5,18 @@ const cstartdate = new Date(dv.current()["start-date"]).getTime();
 const cstartdateop = !dv.current()["start-date"] ? "" : (dv.current()["start-date"].toString().includes("<") ? "<" : (dv.current()["start-date"].toString().includes(">") ? ">" : "==="));
 const cenddate = new Date(dv.current()["end-date"]).getTime();
 const cenddateop = !dv.current()["end-date"] ? "" : (dv.current()["end-date"].toString().includes("<") ? "<" : (dv.current()["end-date"].toString().includes(">") ? ">" : "==="));
-const searchterm = dv.current().tag === null ? '"01 notes"' : '"01 notes" and '+dv.current().tag;
+const matchtags = (a, b) => {
+    for (const v of new Set(a)) {
+      if (
+        !b.some(e => e === v) ||
+        a.filter(e => e === v).length > b.filter(e => e === v).length
+      )
+        return false;
+    }
+    return true;
+};
 
-if (current.keyword || current.author || current.recipient || current.title || current.publication || current.date || current.archive || current["archive-location"] || current["note-title"] || current["start-date"] || current["end-date"] || current.comment || current.tag) {
+if (current.keyword || current.author || current.recipient || current.title || current.publication || current.date || current.archive || current["archive-location"] || current["note-title"] || current["start-date"] || current["end-date"] || current.comment || current.tags) {
 
     function passes(page) {
         return (!current.author || (page.author && page.author.toString().toLowerCase().includes(current.author.toLowerCase())))
@@ -21,16 +30,18 @@ if (current.keyword || current.author || current.recipient || current.title || c
             && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
             && (!current["start-date"] || (page["start-date"] && eval(new Date(page["start-date"]).getTime() + cstartdateop + cstartdate)))
             && (!current["end-date"] || (page["end-date"] && eval(new Date(page["end-date"]).getTime() + cenddateop + cenddate)))
+            && (!current.tags || matchtags(current.file.tags, page.file.tags))
             ;
     }
 
     function keyword(page) {
             return (!current.keyword || (page.content && page.content.toLowerCase().includes(current.keyword.toLowerCase()))
             || (page.notetitle && page.notetitle.toLowerCase().includes(current.keyword.toLowerCase())))
+            ;
     }
 
     const pages = await Promise.all(
-        dv.pages(searchterm)
+        dv.pages('"01 notes"')
         .where(passes)
         .sort(p => p[current.sortby], current.sortorder)
         .map(page => new Promise(async (resolve, reject) => {
@@ -55,7 +66,7 @@ if (current.keyword || current.author || current.recipient || current.title || c
     );
 
     dv.table(
-        ["Note", "Start Date", "End Date", "Author", "Recipient", "Title", "Publication", "Date", "Pages", "Archive", "Loc. in Archive", "Comment"],
+        ["Note Title", "Start Date", "End Date", "Author", "Recipient", "Title", "Publication", "Date", "Pages", "Archive", "Loc. in Archive", "Comment"],
             pages
             .filter(keyword)
             .map(p => [

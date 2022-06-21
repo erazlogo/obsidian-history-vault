@@ -14,42 +14,42 @@
       "pattern": ""
     },
     {
-      "folder": "03 index",
+      "folder": "04 index",
       "tag": "^#place",
       "pattern": ""
     },
     {
-      "folder": "03 index",
+      "folder": "04 index",
       "tag": "^#event",
       "pattern": ""
     },
     {
-      "folder": "03 index",
+      "folder": "04 index",
       "tag": "^#person",
       "pattern": ""
     },
     {
-      "folder": "03 index",
+      "folder": "04 index",
       "tag": "^#institution",
       "pattern": ""
     },
     {
-      "folder": "03 index",
+      "folder": "04 index",
       "tag": "^#work",
       "pattern": ""
     },
     {
-      "folder": "04 tasks",
+      "folder": "05 tasks",
       "tag": "^#task",
       "pattern": ""
     },
     {
-      "folder": "05 archives",
+      "folder": "06 archives",
       "tag": "^#archive",
       "pattern": ""
     },
     {
-      "folder": "06 diary",
+      "folder": "07 diary",
       "tag": "^#diary",
       "pattern": ""
     }
