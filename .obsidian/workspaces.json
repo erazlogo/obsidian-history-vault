@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "Work with notes": {
+    "Work-with-notes": {
       "main": {
         "id": "219cbc15ce10cc77",
         "type": "split",
@@ -31,7 +31,7 @@
                   {
                     "id": "c35259f8180c09de",
                     "type": "leaf",
-                    "dimension": 55.660377358490564,
+                    "dimension": 55.66037735849057,
                     "state": {
                       "type": "localgraph",
                       "state": {
@@ -132,7 +132,7 @@
                   {
                     "id": "9b9fd40bcf14d5b3",
                     "type": "leaf",
-                    "dimension": 44.339622641509436,
+                    "dimension": 44.33962264150943,
                     "state": {
                       "type": "backlink",
                       "state": {
@@ -278,7 +278,7 @@
       },
       "active": "c35259f8180c09de"
     },
-    "Search research notes": {
+    "Search-research-notes": {
       "main": {
         "id": "219cbc15ce10cc77",
         "type": "split",
@@ -420,7 +420,7 @@
       },
       "active": "620db43e38472110"
     },
-    "Write with Longform": {
+    "Write-with-Longform": {
       "main": {
         "id": "219cbc15ce10cc77",
         "type": "split",
@@ -432,6 +432,7 @@
               {
                 "id": "6bcc87f845d9fdf0",
                 "type": "split",
+                "dimension": 59.905660377358494,
                 "children": [
                   {
                     "id": "9bfe5cefc7f1ecde",
@@ -439,7 +440,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+                        "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                         "mode": "source",
                         "source": false
                       }
@@ -451,7 +452,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+                        "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
                         "mode": "source",
                         "source": false
                       }
@@ -463,6 +464,7 @@
               {
                 "id": "bcdf1d6bb915e858",
                 "type": "leaf",
+                "dimension": 40.09433962264151,
                 "pinned": true,
                 "state": {
                   "type": "kanban",
@@ -527,21 +529,12 @@
                     "useHierarchy": true
                   }
                 }
-              },
-              {
-                "id": "de6d71a3f2f32a49",
-                "type": "leaf",
-                "state": {
-                  "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-                  "state": {}
-                }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 276
+        "width": 192
       },
       "right": {
         "id": "d514e81241a11331",
@@ -589,17 +582,24 @@
                     "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md"
                   }
                 }
+              },
+              {
+                "id": "de6d71a3f2f32a49",
+                "type": "leaf",
+                "state": {
+                  "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 316.5
       },
-      "active": "9bfe5cefc7f1ecde"
+      "active": "46834b70e115efeb"
     }
   },
-  "active": "Search research notes"
+  "active": "Work-with-notes"
 }

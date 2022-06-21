@@ -1,0 +1,108 @@
+{
+  "choices": [
+    {
+      "id": "91ce393a-1490-464d-9818-27eea6254780",
+      "name": "Work with notes",
+      "type": "Macro",
+      "command": true,
+      "macroId": "20fc64b1-5f3d-4327-9a71-85c20639dab1"
+    },
+    {
+      "id": "61098618-b73a-485d-9e0f-2afe35ad8d5e",
+      "name": "Search research notes",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4bc86b1c-90bf-4b55-9c42-ef731934c49d"
+    },
+    {
+      "id": "74094e01-078c-4999-9f1f-2cf4f7bcdd55",
+      "name": "Write with Longform",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8b831074-39a6-4353-a29d-ed552bdb6c67"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Work-with-notes",
+      "id": "20fc64b1-5f3d-4327-9a71-85c20639dab1",
+      "commands": [
+        {
+          "name": "Advanced URI: copy URI for current file",
+          "type": "Obsidian",
+          "id": "0046e2cd-89b1-46ef-a732-bfc5414c594c",
+          "commandId": "obsidian-advanced-uri:copy-uri-current-file-simple"
+        },
+        {
+          "name": "workspace-load-work-with-notes",
+          "type": "UserScript",
+          "id": "d172a8b6-27f8-463c-8818-3a5c6c6c51c4",
+          "path": "meta/javascript/workspace-load-work-with-notes.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "ad2f6f8d-a0ee-4250-af6c-dd372863c866",
+          "time": 100
+        },
+        {
+          "name": "load-current-note",
+          "type": "UserScript",
+          "id": "f51d44d3-688d-4a45-9e49-68e50aa1ee4a",
+          "path": "meta/javascript/load-current-note.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Search-research-notes",
+      "id": "4bc86b1c-90bf-4b55-9c42-ef731934c49d",
+      "commands": [
+        {
+          "name": "workspace-load-Search-research-notes",
+          "type": "UserScript",
+          "id": "4bce144e-b091-449e-b419-b2313c7422bb",
+          "path": "meta/javascript/workspace-load-Search-research-notes.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Write-with-Longform",
+      "id": "8b831074-39a6-4353-a29d-ed552bdb6c67",
+      "commands": [
+        {
+          "name": "Advanced URI: copy URI for current file",
+          "type": "Obsidian",
+          "id": "b666dab2-3856-4265-b30b-7a96b850d519",
+          "commandId": "obsidian-advanced-uri:copy-uri-current-file-simple"
+        },
+        {
+          "name": "workspace-load-Write-with-Longform",
+          "type": "UserScript",
+          "id": "2f718357-87fb-41bf-8342-09d98a642974",
+          "path": "meta/javascript/workspace-load-Write-with-Longform.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f1caab7b-27cf-4473-b30b-bc856003953c",
+          "time": 100
+        },
+        {
+          "name": "load-current-note",
+          "type": "UserScript",
+          "id": "dcf25890-5c07-4101-b7d2-9f357d8d9a1b",
+          "path": "meta/javascript/load-current-note.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

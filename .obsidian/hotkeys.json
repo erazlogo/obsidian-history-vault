@@ -39,5 +39,29 @@
       ],
       "key": "R"
     }
+  ],
+  "quickadd:choice:61098618-b73a-485d-9e0f-2afe35ad8d5e": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
+  ],
+  "quickadd:choice:91ce393a-1490-464d-9818-27eea6254780": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:74094e01-078c-4999-9f1f-2cf4f7bcdd55": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
   ]
 }

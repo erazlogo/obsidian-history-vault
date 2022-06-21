@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "meta/templater.js",
+  "user_scripts_folder": "meta/javascript",
   "enable_folder_templates": true,
   "folder_templates": [
     {

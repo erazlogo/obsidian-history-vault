@@ -1,17 +1,14 @@
 [
   "obsidian-kanban",
   "tag-wrangler",
-  "better-word-count",
-  "obsidian-reading-time",
   "obsidian-footnotes",
-  "obsidian-focus-mode",
-  "obsidian-pandoc",
   "longform",
-  "cm-typewriter-scroll-obsidian",
   "dataview",
   "obsidian-zotero-desktop-connector",
   "auto-note-mover",
   "templater-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-contextual-typography"
+  "obsidian-contextual-typography",
+  "obsidian-advanced-uri",
+  "quickadd"
 ]
