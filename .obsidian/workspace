@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "meta/dataview/Search Research Notes.md",
+            "file": "readme.md",
             "mode": "source",
             "source": false
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/dataview/Search Research Notes.md",
+                "file": "readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "meta/dataview/Search Research Notes.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "meta/dataview/Search Research Notes.md"
+                "file": "readme.md"
               }
             }
           }
@@ -140,9 +140,9 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
+    "meta/dataview/Search Research Notes.md",
     "01 notes/1. cuban film festival cancelled in nyc 1972.md",
     "readme.md",
-    "meta/dataview/Search Research Notes.md",
     "meta/dataview/twenty latest notes.md",
     "meta/zotero/research note.md",
     "meta/attachments/search research notes.gif",

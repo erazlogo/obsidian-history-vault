@@ -10,24 +10,38 @@ This vault will be updated frequently during the summer of 2022. To migrate to a
 - [Split the resulting "literature note" into atomic "research notes"](https://github.com/erazlogo/obsidian-history-vault#extract-an-annotation-as-an-atomic-research-note) that will be later sorted into groups for writing. Different annotations from the same source might belong in different places in your draft.
 - [Search and sort research notes by source metadata](https://github.com/erazlogo/obsidian-history-vault#search-and-sort-your-notes-by-source-fields), by date of event described in the note, by your comments, by tags, and by keyword (everything in the note and note title) in a familiar interface structured like a library catalog search.
 - Trace social networks: create and link person, place, and event notes and visualize with the Graph view
-- Use the Kanban plugin as a Corkboard for brainstorming your storyline, and Longform for writing, in a Scrivener-like setup 
+- Use a Corkboard for brainstorming your storyline, and write in a Scrivener-like setup
 
 ## Showcase of features available in this vault
 
 ### Import your annotations from Zotero 
 
-Import annotations with [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). The imported "literature note" includes Zotero item metadata, Zotero tags, and a predefined template for working with notes.
+The imported "literature note" includes Zotero item metadata, Zotero tags, and a predefined template for working with notes.
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/imported%20note.png)
 
 ### Extract an annotation as an atomic "research note" 
 
-Extract an annotation from your imported annotations file (literature note) with [Templater](https://github.com/SilentVoid13/Templater). The new note will include all source information and the template for working with notes. The script includes a prompt for setting new note title and places a link to the new note in your original annotations file.
+Extract an annotation from your imported annotations file (literature note). The new note will include all source information and the template for working with notes. The script includes a prompt for setting new note title and places a link to the new note in your original annotations file.
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/extract%20research%20note.gif)
 
 ### Search and sort your notes by source fields 
 
-Sort your research notes and literature notes by fields dynamically, with [Dataview](https://github.com/blacksmithgu/obsidian-dataview). For text fields, this is a case-sensitive phrase search. Enter dates as YYYY-MM-DD. Enter tag as `#tag`. Enter exact field title and asc/desc to change sort order. The default sort in my case is by start-date, descending, but you can search by any field included in the table. 
+Sort your research notes and literature notes by fields dynamically. 
+Keyword search finds a word or phrase in the entire note text + note title.
+For text fields, this is a case-insensitive phrase search. 
+Enter dates as `YYYY-MM-DD`, `<YYYY-MM-DD` and `>YYYY-MM-DD`.
+Enter tag as `#tag`.  
+Enter exact field title and asc/desc to change sort order.
 
 ![Alt Text](https://publish-01.obsidian.md/access/36bec6aea73b5930cec9761dd7c60012/00%20meta/attachments/search%20research%20notes.gif)
+
+### Acknowledgments
+
+This vault's special features would have been impossible without these plugins:
+- [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration)
+- [Templater](https://github.com/SilentVoid13/Templater)
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+- [Kanban](https://github.com/mgmeyers/obsidian-kanban)
+- [Longform](https://github.com/kevboh/longform)
