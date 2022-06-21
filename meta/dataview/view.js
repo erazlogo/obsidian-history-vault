@@ -24,36 +24,35 @@ if (current.keyword || current.author || current.recipient || current.title || c
             ;
     }
 
-function keyword(page) {
-        return (!current.keyword || (page.content && page.content.toLowerCase().includes(current.keyword.toLowerCase()))
-        || (page.notetitle && page.notetitle.toLowerCase().includes(current.keyword.toLowerCase())))
+    function keyword(page) {
+            return (!current.keyword || (page.content && page.content.toLowerCase().includes(current.keyword.toLowerCase()))
+            || (page.notetitle && page.notetitle.toLowerCase().includes(current.keyword.toLowerCase())))
+    }
 
-}
-
-const pages = await Promise.all(
-    dv.pages(searchterm)
-    .where(passes)
-    .sort(p => p[current.sortby], current.sortorder)
-    .map(page => new Promise(async (resolve, reject) => {
-        const content = await dv.io.load(page.file.path);
-        resolve({
-            link: page.file.link,
-            startdate: page["start-date"],
-            enddate: page["end-date"],
-            author: page.author,
-            recipient: page.recipient,
-            title: page.title,
-            publication: page.publication,
-            date: page.date,
-            pageno: page["page-no"],
-            archive: page.archive,
-            archivelocation: page["archive-location"],
-            notetitle: page.file.name,
-            comment: page.comment,
-            content
-        });
-    }))
-);
+    const pages = await Promise.all(
+        dv.pages(searchterm)
+        .where(passes)
+        .sort(p => p[current.sortby], current.sortorder)
+        .map(page => new Promise(async (resolve, reject) => {
+            const content = await dv.io.load(page.file.path);
+            resolve({
+                link: page.file.link,
+                startdate: page["start-date"],
+                enddate: page["end-date"],
+                author: page.author,
+                recipient: page.recipient,
+                title: page.title,
+                publication: page.publication,
+                date: page.date,
+                pageno: page["page-no"],
+                archive: page.archive,
+                archivelocation: page["archive-location"],
+                notetitle: page.file.name,
+                comment: page.comment,
+                content
+            });
+        }))
+    );
 
     dv.table(
         ["Note", "Start Date", "End Date", "Author", "Recipient", "Title", "Publication", "Date", "Pages", "Archive", "Loc. in Archive", "Comment"],
