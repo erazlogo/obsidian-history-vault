@@ -432,7 +432,7 @@
               {
                 "id": "6bcc87f845d9fdf0",
                 "type": "split",
-                "dimension": 59.905660377358494,
+                "dimension": 59.90566037735849,
                 "children": [
                   {
                     "id": "9bfe5cefc7f1ecde",
@@ -550,7 +550,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -567,7 +567,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
@@ -579,7 +579,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md"
+                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival.md"
                   }
                 }
               },
@@ -598,8 +598,8 @@
         "direction": "horizontal",
         "width": 316.5
       },
-      "active": "46834b70e115efeb"
+      "active": "9bfe5cefc7f1ecde"
     }
   },
-  "active": "Work-with-notes"
+  "active": "Write-with-Longform"
 }

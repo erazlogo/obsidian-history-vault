@@ -4,153 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "4cf619fb635e2102",
+        "id": "51b398dccf71eddf",
         "type": "split",
         "children": [
           {
-            "id": "620db43e38472110",
-            "type": "leaf",
-            "dimension": 50.799289520426285,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "5c5200aaee1379d4"
-          },
-          {
-            "id": "5c5aacc90727a9ca",
+            "id": "6bcc87f845d9fdf0",
             "type": "split",
-            "dimension": 49.200710479573715,
+            "dimension": 59.90566037735849,
             "children": [
               {
-                "id": "c35259f8180c09de",
+                "id": "9bfe5cefc7f1ecde",
                 "type": "leaf",
-                "dimension": 55.66037735849057,
                 "state": {
-                  "type": "localgraph",
+                  "type": "markdown",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [
-                        {
-                          "query": "tag:#source/primary",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14048348
-                          }
-                        },
-                        {
-                          "query": "tag:#source/secondary",
-                          "color": {
-                            "a": 1,
-                            "rgb": 15378022
-                          }
-                        },
-                        {
-                          "query": "tag:#analysis",
-                          "color": {
-                            "a": 1,
-                            "rgb": 12709480
-                          }
-                        },
-                        {
-                          "query": "tag:#whatever",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6084188
-                          }
-                        },
-                        {
-                          "query": "tag:#work",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6084269
-                          }
-                        },
-                        {
-                          "query": "tag:#person",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6073814
-                          }
-                        },
-                        {
-                          "query": "tag:#institution",
-                          "color": {
-                            "a": 1,
-                            "rgb": 6053078
-                          }
-                        },
-                        {
-                          "query": "tag:#place",
-                          "color": {
-                            "a": 1,
-                            "rgb": 11361494
-                          }
-                        },
-                        {
-                          "query": "tag:#event",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14048429
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1.4270094218892415,
-                      "close": true
-                    }
+                    "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+                    "mode": "source",
+                    "source": false
                   }
-                },
-                "group": "5c5200aaee1379d4"
+                }
               },
               {
-                "id": "9b9fd40bcf14d5b3",
+                "id": "46834b70e115efeb",
                 "type": "leaf",
-                "dimension": 44.33962264150943,
                 "state": {
-                  "type": "backlink",
+                  "type": "markdown",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "file": "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+                    "mode": "source",
+                    "source": false
                   }
-                },
-                "group": "5c5200aaee1379d4"
+                }
               }
             ],
-            "direction": "horizontal"
+            "direction": "vertical"
+          },
+          {
+            "id": "bcdf1d6bb915e858",
+            "type": "leaf",
+            "dimension": 40.09433962264151,
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "07 writing/Your first article/Sample Corkboard.md"
+              },
+              "pinned": true
+            }
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -177,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#analysis path:\"1. Notes\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -204,20 +107,12 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "eb7c25ff1c9b61d3",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 273
+    "width": 192
   },
   "right": {
     "id": "d514e81241a11331",
@@ -233,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -262,25 +157,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972.md"
+                "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md"
               }
+            }
+          },
+          {
+            "id": "de6d71a3f2f32a49",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 316.5
   },
-  "active": "8d29f2ab06c3dab4",
+  "active": "9bfe5cefc7f1ecde",
   "lastOpenFiles": [
-    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
-    "meta/dataview/Search Research Notes.md",
     "01 notes/2. lucia shown in the US two years after cuban film festival.md",
-    "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972.md",
+    "07 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+    "meta/dataview/Search Research Notes.md",
     "meta/templater/extract research note from selection.md",
     "meta/templater/extract bibliography task from selection.md",
     "readme.md",
