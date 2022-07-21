@@ -32,6 +32,7 @@ comment::
 
 ### Note
 {%- for annotation in annotations %}
-{% if annotation.annotatedText %}
+{% if annotation.imageRelativePath %}
+![[{{annotation.imageRelativePath}}]] {% endif %}{% if annotation.annotatedText %}
 {{annotation.annotatedText}} [(p. {{annotation.page}})](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.page}}&annotation={{annotation.id}}){%- endif %}{%- if annotation.comment%}
 %%{{annotation.comment}}%%{%- endif %}{%- endfor %}

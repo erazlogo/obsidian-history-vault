@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                    "file": "meta/zotero/research note.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -134,7 +134,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                    "file": "meta/zotero/research note.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md"
+                "file": "meta/zotero/research note.md"
               }
             }
           }
@@ -276,9 +276,9 @@
   },
   "active": "620db43e38472110",
   "lastOpenFiles": [
+    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
     "01 notes/test note.md",
     "01 notes/amayaScreeningCubaFilm2010.md",
-    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
     "meta/zotero/research note.md",
     "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
     "meta/dataview/Search Research Notes.md",
