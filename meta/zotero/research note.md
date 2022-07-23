@@ -24,7 +24,7 @@ citekey: {{citekey}}
 
 start-date:: {% if date %}{{date | format("YYYY-MM-DD")}}{% endif %}
 end-date::
-page-no::
+page-no:: {% for annotation in annotations %}{% if loop.first %}{{annotation.pageLabel}}{% endif %}{% endfor %}
 
 ### Connections
 
@@ -34,5 +34,5 @@ comment::
 {%- for annotation in annotations %}
 {% if annotation.imageRelativePath %}
 ![[{{annotation.imageRelativePath}}]] {% endif %}{% if annotation.annotatedText %}
-{{annotation.annotatedText}} [(p. {{annotation.page}})](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.page}}&annotation={{annotation.id}}){%- endif %}{%- if annotation.comment%}
+{{annotation.annotatedText}} [(p. {{annotation.pageLabel}})](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.pageLabel}}&annotation={{annotation.id}}){%- endif %}{%- if annotation.comment%}
 %%{{annotation.comment}}%%{%- endif %}{%- endfor %}
