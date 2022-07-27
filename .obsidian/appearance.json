@@ -2,6 +2,10 @@
   "baseFontSize": 17,
   "theme": "moonstone",
   "cssTheme": "Minimal",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "my font",
+    "hidecitations",
+    "callouts"
+  ],
   "baseFontSizeAction": false
 }

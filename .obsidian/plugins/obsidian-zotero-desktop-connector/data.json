@@ -14,5 +14,6 @@
       "templatePath": "meta/zotero/research note.md",
       "cslStyle": "chicago-fullnote-bibliography"
     }
-  ]
+  ],
+  "shouldConcat": true
 }

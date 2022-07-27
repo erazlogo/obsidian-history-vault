@@ -1,0 +1,3 @@
+.markdown-preview-view :is(.pandoc-citation, .pandoc-citation-extra, .pandoc-citation-formatting) {
+  display: none;
+}

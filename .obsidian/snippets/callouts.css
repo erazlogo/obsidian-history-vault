@@ -1,0 +1,24 @@
+/* Yellow */
+.research-note .callout[data-callout-metadata="#ffd400"] {
+  --callout-color: 255, 204, 0;
+}
+
+/* Red */
+.research-note .callout[data-callout-metadata="#ff6666"] {
+  --callout-color: 255, 59, 48;
+}
+
+/* Green */
+.research-note .callout[data-callout-metadata="#5fb236"] {
+  --callout-color: 40, 205, 65;
+}
+
+/* Blue */
+.research-note .callout[data-callout-metadata="#2ea8e5"] {
+  --callout-color: 0, 122, 255;
+}
+
+/* Purple */
+.research-note .callout[data-callout-metadata="#a28ae5"] {
+  --callout-color: 125, 84, 222;
+}
