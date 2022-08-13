@@ -28,7 +28,7 @@ page-no:: {% for annotation in annotations %}{% if loop.first %}{{annotation.pag
 comment:: 
 
 ### Note
-{%- macro calloutHeader(color) -%}
+{% macro calloutHeader(color) -%}
 {%- if color == "#ff6666" -%}
 Important
 {%- endif -%}
@@ -43,10 +43,15 @@ Undefined - Purple
 {%- endif -%}
 {%- endmacro -%}
 
+{% persist "annotations" %}
+{% set annotations = annotations | filterby("date", "dateafter", lastImportDate) -%}
+{% if annotations.length > 0 %}
+### Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
+
 {%- for annotation in annotations %}
 {% if annotation.color !== "#ffd400" %}
 >[!quote{% if annotation.color %}|{{annotation.color}}{% endif %}] {{calloutHeader(annotation.color)}}
 >{%- endif -%}{% if annotation.imageRelativePath %}
 ![[{{annotation.imageRelativePath}}]] {% endif %}{% if annotation.annotatedText %}
 {{annotation.annotatedText}} [(p. {{annotation.pageLabel}})](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.pageLabel}}&annotation={{annotation.id}}){%- endif %}{%- if annotation.comment%}
-%%{{annotation.comment}}%%{%- endif %}{%- endfor %}
+%%{{annotation.comment}}%%{%- endif %}{%- endfor %}{% endif %} {% endpersist %}

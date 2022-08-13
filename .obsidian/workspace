@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -134,7 +134,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md"
+                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md"
               }
             }
           }
@@ -274,12 +274,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "620db43e38472110",
+  "active": "57fd607d940f4ba5",
   "lastOpenFiles": [
-    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
-    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
     "01 notes/amayaScreeningCubaFilm2010.md",
     "meta/zotero/research note.md",
+    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
     "meta/templater/extract research note from selection.md",
     "01 notes/test note.md",
     "meta/dataview/Search Research Notes.md",
