@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "type": "search",
+      "title": "tag:#subject/numbers_in_literature",
+      "query": "tag:#subject/numbers_in_literature",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#source/secondary",
+      "query": "tag:#source/secondary",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#source/primary",
+      "query": "tag:#source/primary",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#analysis",
+      "query": "tag:#analysis",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#person",
+      "query": "tag:#person",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#work",
+      "query": "tag:#work",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#institution",
+      "query": "tag:#institution",
+      "ctime": 1680785650155
+    },
+    {
+      "type": "search",
+      "title": "tag:#event",
+      "query": "tag:#event",
+      "ctime": 1680785650155
+    }
+  ]
+}

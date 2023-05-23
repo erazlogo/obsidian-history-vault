@@ -7,5 +7,6 @@
     "hidecitations",
     "callouts"
   ],
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "accentColor": ""
 }

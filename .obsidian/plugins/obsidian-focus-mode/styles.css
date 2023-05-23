@@ -1,18 +1,26 @@
+.focus-mode .cm-s-obsidian .cm-line:not(.cm-active),
 .focus-mode .cm-s-obsidian div:not(.CodeMirror-activeline) > .CodeMirror-line {
     opacity: 0.85;
     filter: saturate(0.85);
 }
 
-.focus-mode .view-header-icon,
-.focus-mode .view-actions,
 .focus-mode .status-bar,
+.focus-mode .view-actions,
+.focus-mode .view-header-icon,
+.focus-mode .inline-title,
 .focus-mode .workspace-ribbon:not(.mod-left),
 .focus-mode .workspace-split.maximised .workspace-leaf:not(.mod-active),
 .focus-mode
     .workspace-split.maximised
     .workspace-leaf.mod-active
-    ~ .workspace-split {
+    ~ .workspace-split,
+.focus-mode.plugin-tabs .stayopen .view-header,
+.super-focus-mode .workspace-tabs:not(.mod-active) {
     display: none;
+}
+
+.super-focus-mode .workspace-tab-header-container {
+    padding-left: var(--size-4-8);
 }
 
 .focus-mode .view-content {
@@ -24,17 +32,13 @@
     flex-basis: calc(100% - 4px);
 }
 
-.focus-mode .workspace-ribbon {
+.focus-mode .workspace-ribbon,
+.focus-mode .sidebar-toggle-button {
     visibility: hidden;
 }
 
+.focus-mode .workspace-ribbon::before,
 .focus-mode
     .side-dock-ribbon-action[aria-label="Toggle Focus Mode (Shift + Click to show active pane only)"] {
     visibility: visible;
-}
-
-/* Thanks to @AidenLx! */
-/* Fixes for the Obsidian Tabs plugin: */
-.focus-mode.plugin-tabs .stayopen .view-header {
-    display: none;
 }

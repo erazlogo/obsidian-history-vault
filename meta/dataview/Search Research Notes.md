@@ -18,7 +18,7 @@ sortby:: start-date
 sortorder:: desc
 
 ```dataviewjs
-await dv.view("meta/dataview", { keyword: dv.current().keyword, author: dv.current().author, recipient: dv.current().recipient, title: dv.current().title, publication: dv.current().publication, date: dv.current().date, archive: dv.current().archive, archivelocation: dv.current()["archive-location"], notetitle: dv.current()["note-title"], startdate: dv.current["start-date"], enddate: dv.current()["end-date"], comment: dv.current().comment, tag: dv.current().tag, sortby: dv.current().sortby, sortorder: dv.current().sortorder });
+await dv.view("meta/dataview/search-research-notes", {});
 ```
 
 Keyword search finds a word or phrase in the entire note text + note title.

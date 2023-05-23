@@ -10,11 +10,11 @@
           {
             "id": "620db43e38472110",
             "type": "leaf",
-            "dimension": 54.93333333333334,
+            "dimension": 50.799289520426285,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,7 +24,7 @@
           {
             "id": "5c5aacc90727a9ca",
             "type": "split",
-            "dimension": 45.06666666666666,
+            "dimension": 49.200710479573715,
             "children": [
               {
                 "id": "c35259f8180c09de",
@@ -33,7 +33,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                    "file": "meta/zotero/research note.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -134,7 +134,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                    "file": "meta/zotero/research note.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "meta/zotero/research note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md"
+                "file": "meta/zotero/research note.md"
               }
             }
           }
@@ -274,17 +274,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "57fd607d940f4ba5",
+  "active": "620db43e38472110",
   "lastOpenFiles": [
-    "01 notes/amayaScreeningCubaFilm2010.md",
-    "meta/zotero/research note.md",
-    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
-    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
-    "meta/templater/extract research note from selection.md",
-    "01 notes/test note.md",
     "meta/dataview/Search Research Notes.md",
-    "readme.md",
-    "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-    "03 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md"
+    "03 writing/Your first article/Drafts/Draft 1/The first paragraph of your introduction.md",
+    "meta/dataview/twenty latest notes.md",
+    "meta/dataview/all tasks.md",
+    "meta/dataview/notes as a timeline.md",
+    "03 writing/Your first article/Corkboard.md",
+    "meta/zotero/research note.md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+    "01 notes/amayaScreeningCubaFilm2010.md",
+    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md"
   ]
 }

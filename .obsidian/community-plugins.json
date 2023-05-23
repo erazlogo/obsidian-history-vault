@@ -10,5 +10,10 @@
   "obsidian-minimal-settings",
   "obsidian-contextual-typography",
   "obsidian-advanced-uri",
-  "quickadd"
+  "quickadd",
+  "obsidian-focus-mode",
+  "obsidian-pandoc",
+  "better-word-count",
+  "obsidian-hider",
+  "cm-typewriter-scroll-obsidian"
 ]
