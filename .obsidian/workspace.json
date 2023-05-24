@@ -4,82 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "cc42f564e792fbc6",
+        "id": "4cf619fb635e2102",
         "type": "split",
         "children": [
           {
-            "id": "b86ddc73aad4b7bf",
-            "type": "split",
-            "dimension": 64.2603550295858,
+            "id": "67df8a58fe30bf43",
+            "type": "tabs",
+            "dimension": 50.799289520426285,
             "children": [
               {
-                "id": "baf0706d18662425",
-                "type": "tabs",
-                "dimension": 31.47810218978102,
-                "children": [
-                  {
-                    "id": "9bfe5cefc7f1ecde",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    },
-                    "group": "c23cfaa511192ef3"
+                "id": "620db43e38472110",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "readme.md",
+                    "mode": "source",
+                    "source": false
                   }
-                ]
-              },
-              {
-                "id": "7831287e8666508e",
-                "type": "tabs",
-                "dimension": 68.52189781021897,
-                "children": [
-                  {
-                    "id": "46834b70e115efeb",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "03 writing/Your first article/TITLE.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ]
+                },
+                "group": "5c5200aaee1379d4"
               }
-            ],
-            "direction": "vertical"
+            ]
           },
           {
-            "id": "e4603651fd5b8ae3",
+            "id": "5c5aacc90727a9ca",
             "type": "split",
-            "dimension": 35.739644970414204,
+            "dimension": 49.200710479573715,
             "children": [
               {
-                "id": "0e42a295f8559b40",
+                "id": "be58a14770297cb2",
                 "type": "tabs",
-                "dimension": 31.38686131386861,
+                "dimension": 55.66037735849057,
                 "children": [
                   {
-                    "id": "a8bc6b10a5da0eaf",
+                    "id": "c35259f8180c09de",
                     "type": "leaf",
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+                        "file": "readme.md",
                         "options": {
                           "collapse-filter": true,
-                          "search": "-path:\"06 archives\"",
+                          "search": "",
                           "localJumps": 1,
                           "localBacklinks": true,
                           "localForelinks": true,
                           "localInterlinks": true,
                           "showTags": false,
-                          "showAttachments": true,
+                          "showAttachments": false,
                           "hideUnresolved": false,
                           "collapse-color-groups": true,
                           "colorGroups": [
@@ -94,18 +67,18 @@
                               "query": "tag:#source/secondary",
                               "color": {
                                 "a": 1,
-                                "rgb": 14069084
+                                "rgb": 15378022
                               }
                             },
                             {
                               "query": "tag:#analysis",
                               "color": {
                                 "a": 1,
-                                "rgb": 11392604
+                                "rgb": 12709480
                               }
                             },
                             {
-                              "query": "tag:#language",
+                              "query": "tag:#whatever",
                               "color": {
                                 "a": 1,
                                 "rgb": 6084188
@@ -157,39 +130,79 @@
                           "repelStrength": 10,
                           "linkStrength": 1,
                           "linkDistance": 250,
-                          "scale": 1.1066819197003224,
+                          "scale": 1.4270094218892415,
                           "close": true
                         }
                       }
                     },
-                    "group": "c23cfaa511192ef3"
+                    "group": "5c5200aaee1379d4"
+                  },
+                  {
+                    "id": "9b9fd40bcf14d5b3",
+                    "type": "leaf",
+                    "state": {
+                      "type": "backlink",
+                      "state": {
+                        "file": "readme.md",
+                        "collapseAll": false,
+                        "extraContext": false,
+                        "sortOrder": "alphabetical",
+                        "showSearch": false,
+                        "searchQuery": "",
+                        "backlinkCollapsed": false,
+                        "unlinkedCollapsed": true
+                      }
+                    },
+                    "group": "5c5200aaee1379d4"
                   }
                 ]
               },
               {
-                "id": "5da5b8cabb1a37d4",
+                "id": "bcb60eacdee4b51e",
                 "type": "tabs",
-                "dimension": 68.61313868613139,
+                "dimension": 44.33962264150943,
                 "children": [
                   {
-                    "id": "a88dc700788989d3",
+                    "id": "6c569057ad228943",
                     "type": "leaf",
-                    "pinned": true,
                     "state": {
                       "type": "kanban",
                       "state": {
                         "file": "03 writing/shortcuts.md"
-                      },
-                      "pinned": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "29613fa39efd60de",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "meta/dataview/Quick Search.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "55ea2b470c4d53dd",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "meta/dataview/Research Notes.md",
+                        "mode": "source",
+                        "source": false
+                      }
                     }
                   }
                 ]
               }
             ],
-            "direction": "vertical"
+            "direction": "horizontal"
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -218,7 +231,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#analysis path:\"1. Notes\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -245,13 +258,20 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "eb7c25ff1c9b61d3",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 192,
-    "collapsed": true
+    "width": 273
   },
   "right": {
     "id": "d514e81241a11331",
@@ -267,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 writing/Your first article/TITLE.md",
+                "file": "readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 writing/Your first article/TITLE.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -296,24 +316,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 writing/Your first article/TITLE.md"
+                "file": "readme.md"
               }
-            }
-          },
-          {
-            "id": "de6d71a3f2f32a49",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -327,11 +340,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "46834b70e115efeb",
+  "active": "620db43e38472110",
   "lastOpenFiles": [
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
-    "01 notes/Untitled.md",
     "03 writing/Your first article/TITLE.md",
+    "01 notes/Untitled.md",
     "meta/dataview/Drafts.md",
     "03 writing/shortcuts.md",
     "03 writing/Your first article/The first paragraph of your introduction.md",

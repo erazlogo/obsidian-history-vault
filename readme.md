@@ -2,7 +2,7 @@ This is a starter vault for historical research with Zotero and Obsidian. To dow
 
 For directions on how to use this vault, go to [Doing History with Zotero and Obsidian](https://publish.obsidian.md/history-notes/).
 
-This vault will be updated frequently during the summer of 2022. To migrate to a newer version, just move your notes into matching folders in the new vault. 
+This vault will be updated frequently during the summer of 2023. To migrate to a newer version, just move your notes into matching folders in the new vault. 
 
 ## Advanced Features and Best Practices for Historians
 - Combine free-form "Zettelkasten" linking of ideas with structured data necessary to know who did what and when.
@@ -10,7 +10,6 @@ This vault will be updated frequently during the summer of 2022. To migrate to a
 - [Split the resulting "literature note" into atomic "research notes"](https://github.com/erazlogo/obsidian-history-vault#extract-an-annotation-as-an-atomic-research-note) that will be later sorted into groups for writing. Different annotations from the same source might belong in different places in your draft.
 - [Search and sort research notes by source metadata](https://github.com/erazlogo/obsidian-history-vault#search-and-sort-your-notes-by-source-fields), by date of event described in the note, by your comments, by tags, and by keyword (everything in the note and note title) in a familiar interface structured like a library catalog search.
 - Trace social networks: create and link person, place, and event notes and visualize with the Graph view
-- Use a Corkboard for brainstorming your storyline, and write in a Scrivener-like setup
 
 ## Showcase of features available in this vault
 
