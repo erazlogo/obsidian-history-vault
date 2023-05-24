@@ -1,7 +1,7 @@
 #task 
 #project/film-censorship
 
-%%These references come from imported as Zotero annotations.%%
+%%These references come from imported Zotero annotations.%%
 
 --. "Stanley Kauffmann on Films:A Journalof the PlagueYearsby StefanKanfer. Memoriesof Underdevelopment."NewRepublic,May19, 1973, 22, [Go to annotation](zotero://open-pdf/library/items/P7ES36W9?page=208&annotation=H4B4SUGU)
 

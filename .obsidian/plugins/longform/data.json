@@ -1,14 +1,41 @@
 {
-  "version": 2,
-  "projects": {
-    "03 writing/Your first article": {
-      "path": "03 writing/Your first article",
-      "indexFile": "Index",
-      "draftsPath": "Drafts/"
+  "version": 3,
+  "projects": {},
+  "selectedDraftVaultPath": "03 writing/Your first article/Index.md",
+  "userScriptFolder": null,
+  "sessionStorage": "data",
+  "sessions": [
+    {
+      "start": "2023-05-23T23:52:34.660Z",
+      "total": 0,
+      "drafts": {
+        "03 writing/Your first article/Your first article.md": {
+          "total": 0,
+          "scenes": {}
+        },
+        "03 writing/Your first article/Index.md": {
+          "total": 0,
+          "scenes": {
+            "TITLE": 0,
+            "The first paragraph of your introduction": 0,
+            "SUBSECTION 1": 0,
+            "your paragraph on censorship of cuban cinema": 0,
+            "SUBSECTION 2": 0,
+            "the first paragraph of part 2": 0
+          }
+        }
+      }
     }
-  },
-  "selectedProject": "03 writing/Your first article",
-  "selectedDraft": "Draft 1",
+  ],
+  "showWordCountInStatusBar": true,
+  "startNewSessionEachDay": true,
+  "sessionGoal": 500,
+  "applyGoalTo": "all",
+  "notifyOnGoal": true,
+  "countDeletionsForGoal": false,
+  "keepSessionCount": 30,
+  "sessionFile": "longform-sessions.json",
+  "numberScenes": false,
   "workflows": {
     "Default Workflow": {
       "name": "Default Workflow",
@@ -46,7 +73,25 @@
           }
         }
       ]
+    },
+    "My workflow": {
+      "name": "My workflow",
+      "description": "",
+      "steps": [
+        {
+          "id": "concatenate-text",
+          "optionValues": {
+            "separator": "\n\n"
+          }
+        },
+        {
+          "id": "write-to-note",
+          "optionValues": {
+            "target": "manuscript.md",
+            "open-after": true
+          }
+        }
+      ]
     }
-  },
-  "userScriptFolder": null
+  }
 }
