@@ -488,7 +488,7 @@
               {
                 "id": "b86ddc73aad4b7bf",
                 "type": "split",
-                "dimension": 64.26035502958581,
+                "dimension": 64.2603550295858,
                 "children": [
                   {
                     "id": "baf0706d18662425",
@@ -515,8 +515,12 @@
                         "id": "46834b70e115efeb",
                         "type": "leaf",
                         "state": {
-                          "type": "empty",
-                          "state": {}
+                          "type": "markdown",
+                          "state": {
+                            "file": "03 writing/Your first article/TITLE.md",
+                            "mode": "source",
+                            "source": false
+                          }
                         }
                       }
                     ]
@@ -542,16 +546,80 @@
                           "state": {
                             "options": {
                               "collapse-filter": true,
-                              "search": "",
+                              "search": "-path:\"06 archives\"",
                               "localJumps": 1,
                               "localBacklinks": true,
                               "localForelinks": true,
-                              "localInterlinks": false,
+                              "localInterlinks": true,
                               "showTags": false,
-                              "showAttachments": false,
+                              "showAttachments": true,
                               "hideUnresolved": false,
                               "collapse-color-groups": true,
-                              "colorGroups": [],
+                              "colorGroups": [
+                                {
+                                  "query": "tag:#source/primary",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 14048348
+                                  }
+                                },
+                                {
+                                  "query": "tag:#source/secondary",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 14069084
+                                  }
+                                },
+                                {
+                                  "query": "tag:#analysis",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 11392604
+                                  }
+                                },
+                                {
+                                  "query": "tag:#language",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 6084188
+                                  }
+                                },
+                                {
+                                  "query": "tag:#work",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 6084269
+                                  }
+                                },
+                                {
+                                  "query": "tag:#person",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 6073814
+                                  }
+                                },
+                                {
+                                  "query": "tag:#institution",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 6053078
+                                  }
+                                },
+                                {
+                                  "query": "tag:#place",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 11361494
+                                  }
+                                },
+                                {
+                                  "query": "tag:#event",
+                                  "color": {
+                                    "a": 1,
+                                    "rgb": 14048429
+                                  }
+                                }
+                              ],
                               "collapse-display": true,
                               "showArrow": false,
                               "textFadeMultiplier": 0,
@@ -562,7 +630,7 @@
                               "repelStrength": 10,
                               "linkStrength": 1,
                               "linkDistance": 250,
-                              "scale": 0.9602645007922176,
+                              "scale": 1.1066819197003224,
                               "close": true
                             }
                           }

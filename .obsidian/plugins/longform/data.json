@@ -2,7 +2,7 @@
   "version": 3,
   "projects": {},
   "selectedDraftVaultPath": "03 writing/Your first article/Index.md",
-  "userScriptFolder": null,
+  "userScriptFolder": "meta/longform",
   "sessionStorage": "data",
   "sessions": [
     {
@@ -83,6 +83,17 @@
           "optionValues": {
             "separator": "\n\n"
           }
+        },
+        {
+          "id": "remove-comments",
+          "optionValues": {
+            "remove-markdown-comments": true,
+            "remove-html-comments": true
+          }
+        },
+        {
+          "id": "meta/longform/re-index-footnotes.js",
+          "optionValues": {}
         },
         {
           "id": "write-to-note",

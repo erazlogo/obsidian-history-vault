@@ -23,7 +23,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                        "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
                         "mode": "source",
                         "source": false
                       }
@@ -41,8 +41,12 @@
                     "id": "46834b70e115efeb",
                     "type": "leaf",
                     "state": {
-                      "type": "empty",
-                      "state": {}
+                      "type": "markdown",
+                      "state": {
+                        "file": "03 writing/Your first article/TITLE.md",
+                        "mode": "source",
+                        "source": false
+                      }
                     }
                   }
                 ]
@@ -66,7 +70,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                        "file": "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
                         "options": {
                           "collapse-filter": true,
                           "search": "-path:\"06 archives\"",
@@ -153,7 +157,7 @@
                           "repelStrength": 10,
                           "linkStrength": 1,
                           "linkDistance": 250,
-                          "scale": 0.9602645007922176,
+                          "scale": 1.1066819197003224,
                           "close": true
                         }
                       }
@@ -263,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "03 writing/Your first article/TITLE.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+                "file": "03 writing/Your first article/TITLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -292,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md"
+                "file": "03 writing/Your first article/TITLE.md"
               }
             }
           },
@@ -323,16 +327,25 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "a8bc6b10a5da0eaf",
+  "active": "46834b70e115efeb",
   "lastOpenFiles": [
-    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
-    "03 writing/Your first article/The first paragraph of your introduction.md",
-    "01 notes/Untitled.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
+    "01 notes/Untitled.md",
+    "03 writing/Your first article/TITLE.md",
+    "meta/dataview/Drafts.md",
     "03 writing/shortcuts.md",
-    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
-    "meta/dataview/Research Notes.md",
+    "03 writing/Your first article/The first paragraph of your introduction.md",
+    "03 writing/Your first article/the first paragraph of part 2.md",
+    "03 writing/Your first article/your paragraph on censorship of cuban cinema.md",
     "meta/dataview/Quick Search.md",
+    "meta/dataview/Research Notes.md",
+    "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
+    "meta/dataview/writing-notes.js",
+    "meta/longform/re-index-footnotes.js",
+    "meta/longform",
+    "meta/javascript/longform/re-index-footnotes.js",
+    "meta/javascript/longform",
+    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
     "04 index/New York, NY (place note).md",
     "05 tasks/enter references from screening cuba.md",
     "04 index/United States of America (place note).md",
@@ -346,15 +359,10 @@
     "meta/attachments",
     "attachments",
     "untitled folder",
-    "03 writing/Your first article/your paragraph on censorship of cuban cinema.md",
-    "03 writing/Your first article/the first paragraph of part 2.md",
     "03 writing/Your first article/SUBSECTION 1.md",
     "03 writing/Your first article/SUBSECTION 2.md",
-    "03 writing/Your first article/TITLE.md",
     "03 writing/Your first article/Index.md",
     "03 writing/Your first article",
-    "03 writing/Your first article/Your first article.md",
-    "readme.md",
-    "meta/zotero/research note.md"
+    "03 writing/Your first article/Your first article.md"
   ]
 }
