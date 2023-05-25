@@ -1,6 +1,10 @@
 const current = dv.current();
 const cdate = new Date(dv.current().date).getTime();
 const cdateop = !dv.current().date ? "" : (dv.current().date.toString().includes("<") ? "<" : (dv.current().date.toString().includes(">") ? ">" : "==="));
+const cnotecreated = new Date(dv.current()["note-created"]).getTime();
+const cnotecreatedop = !dv.current()["note-created"] ? "" : (dv.current()["note-created"].toString().includes("<") ? "<" : (dv.current()["note-created"].toString().includes(">") ? ">" : "==="));
+const cnotemodified = new Date(dv.current()["note-modified"]).getTime();
+const cnotemodifiedop = !dv.current()["note-modified"] ? "" : (dv.current()["note-modified"].toString().includes("<") ? "<" : (dv.current()["note-modified"].toString().includes(">") ? ">" : "==="));
 const cstartdate = new Date(dv.current()["start-date"]).getTime();
 const cstartdateop = !dv.current()["start-date"] ? "" : (dv.current()["start-date"].toString().includes("<") ? "<" : (dv.current()["start-date"].toString().includes(">") ? ">" : "==="));
 const cenddate = new Date(dv.current()["end-date"]).getTime();
@@ -30,6 +34,8 @@ if (current.keyword || current.author || current.recipient || current.title || c
             && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
             && (!current["start-date"] || (page["start-date"] && eval(new Date(page["start-date"]).getTime() + cstartdateop + cstartdate)))
             && (!current["end-date"] || (page["end-date"] && eval(new Date(page["end-date"]).getTime() + cenddateop + cenddate)))
+            && (!current["note-created"] || (page.file.cday && eval(new Date(page.file.cday).getTime() + cnotecreatedop + cnotecreated)))
+            && (!current["note-modified"] || (page.file.mday && eval(new Date(page.file.mday).getTime() + cnotemodifiedop + cnotemodified)))
             && (!current.tags || matchtags(current.file.tags, page.file.tags))
             ;
     }
@@ -43,7 +49,7 @@ if (current.keyword || current.author || current.recipient || current.title || c
     const pages = await Promise.all(
         dv.pages('"01 notes"')
         .where(passes)
-        .sort(p => p[current.sortby], current.sortorder)
+        .sort(p => ({ "note-created": p.file.ctime, "note-modified": p.file.mtime, "note-title": p.file.name }[current.sortby] ?? p[current.sortby]), current.sortorder)
         .map(page => new Promise(async (resolve, reject) => {
             const content = await dv.io.load(page.file.path);
             resolve({

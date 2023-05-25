@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "readme.md",
+                    "file": "meta/dataview/Research Notes.md",
                     "mode": "source",
                     "source": false
                   }
@@ -43,7 +43,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "readme.md",
+                        "file": "meta/dataview/Research Notes.md",
                         "options": {
                           "collapse-filter": true,
                           "search": "",
@@ -143,7 +143,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "readme.md",
+                        "file": "meta/dataview/Research Notes.md",
                         "collapseAll": false,
                         "extraContext": false,
                         "sortOrder": "alphabetical",
@@ -266,6 +266,14 @@
               "type": "VIEW_TYPE_LONGFORM_EXPLORER",
               "state": {}
             }
+          },
+          {
+            "id": "a38ca814a9fa1ef7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -287,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "03 writing/shortcuts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "03 writing/shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -316,7 +324,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "03 writing/shortcuts.md"
               }
             }
           }
@@ -340,8 +348,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "620db43e38472110",
+  "active": "6c569057ad228943",
   "lastOpenFiles": [
+    "meta/dataview/Research Notes.md",
+    "meta/dataview/Quick Search.md",
+    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
+    "meta/dataview/Search Research Notes.md",
+    "readme.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
     "03 writing/Your first article/TITLE.md",
     "01 notes/Untitled.md",
@@ -350,15 +363,12 @@
     "03 writing/Your first article/The first paragraph of your introduction.md",
     "03 writing/Your first article/the first paragraph of part 2.md",
     "03 writing/Your first article/your paragraph on censorship of cuban cinema.md",
-    "meta/dataview/Quick Search.md",
-    "meta/dataview/Research Notes.md",
     "01 notes/1. cuban film festival cancelled in nyc 1972 (secondary source).md",
     "meta/dataview/writing-notes.js",
     "meta/longform/re-index-footnotes.js",
     "meta/longform",
     "meta/javascript/longform/re-index-footnotes.js",
     "meta/javascript/longform",
-    "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
     "04 index/New York, NY (place note).md",
     "05 tasks/enter references from screening cuba.md",
     "04 index/United States of America (place note).md",
@@ -367,7 +377,6 @@
     "04 index/Days of Water (Los días del agua, 1971) - work note.md",
     "04 index/Cuba (place note).md",
     "04 index/1972.03.24 Cuban Film Festival (event note).md",
-    "meta/dataview/Search Research Notes.md",
     "meta/dataview/research-notes.js",
     "meta/attachments",
     "attachments",

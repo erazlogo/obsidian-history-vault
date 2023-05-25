@@ -8,7 +8,10 @@ date::
 archive:: 
 archive-location:: 
 
+note-created::
+note-modified::
 note-title:: 
+
 start-date:: 
 end-date:: 
 comment:: 
