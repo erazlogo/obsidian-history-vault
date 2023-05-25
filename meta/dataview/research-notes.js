@@ -20,7 +20,7 @@ const matchtags = (a, b) => {
     return true;
 };
 
-if (current.keyword || current.author || current.recipient || current.title || current.publication || current.date || current.archive || current["archive-location"] || current["note-title"] || current["start-date"] || current["end-date"] || current.comment || current.tags) {
+if (current.keyword || current.author || current.recipient || current.title || current.publication || current.date || current.archive || current["archive-location"] || current["note-title"] || current["start-date"] || current["end-date"] || current["note-created"] || current["note-modified"] || current.comment || current.tags) {
 
     function passes(page) {
         return (!current.author || (page.author && page.author.toString().toLowerCase().includes(current.author.toLowerCase())))
