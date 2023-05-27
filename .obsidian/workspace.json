@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "meta/dataview/Research Notes.md",
+                    "file": "readme.md",
                     "mode": "source",
                     "source": false
                   }
@@ -43,7 +43,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "meta/dataview/Research Notes.md",
+                        "file": "readme.md",
                         "options": {
                           "collapse-filter": true,
                           "search": "",
@@ -143,7 +143,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "meta/dataview/Research Notes.md",
+                        "file": "readme.md",
                         "collapseAll": false,
                         "extraContext": false,
                         "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 writing/shortcuts.md",
+                "file": "readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 writing/shortcuts.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -324,7 +324,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 writing/shortcuts.md"
+                "file": "readme.md"
               }
             }
           }
@@ -348,18 +348,18 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6c569057ad228943",
+  "active": "620db43e38472110",
   "lastOpenFiles": [
+    "meta/dataview/Search Research Notes.md",
     "meta/dataview/Research Notes.md",
     "meta/dataview/Quick Search.md",
+    "meta/dataview/Drafts.md",
+    "03 writing/shortcuts.md",
     "01 notes/2. lucia shown in the US two years after cuban film festival (primary source).md",
-    "meta/dataview/Search Research Notes.md",
     "readme.md",
     "02 analysis/3. boycotts, censorship, and film spectatorship (analysis note).md",
     "03 writing/Your first article/TITLE.md",
     "01 notes/Untitled.md",
-    "meta/dataview/Drafts.md",
-    "03 writing/shortcuts.md",
     "03 writing/Your first article/The first paragraph of your introduction.md",
     "03 writing/Your first article/the first paragraph of part 2.md",
     "03 writing/Your first article/your paragraph on censorship of cuban cinema.md",

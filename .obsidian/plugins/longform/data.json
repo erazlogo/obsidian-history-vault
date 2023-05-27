@@ -6,6 +6,23 @@
   "sessionStorage": "data",
   "sessions": [
     {
+      "start": "2023-05-26T13:10:29.939Z",
+      "total": 0,
+      "drafts": {
+        "03 writing/Your first article/Index.md": {
+          "total": 0,
+          "scenes": {
+            "TITLE": 0,
+            "The first paragraph of your introduction": 0,
+            "SUBSECTION 1": 0,
+            "your paragraph on censorship of cuban cinema": 0,
+            "SUBSECTION 2": 0,
+            "the first paragraph of part 2": 0
+          }
+        }
+      }
+    },
+    {
       "start": "2023-05-24T18:22:47.279Z",
       "total": 0,
       "drafts": {
